@@ -1,0 +1,18 @@
+{
+  "name": "art-theme-becky",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --style expanded scss/style.scss css/style.css",
+    "watch": "sass --watch scss:css --style expanded",
+    "prod": "sass --style compressed --embed-source-map scss/style.scss css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kipmevrouw/F2M5-PROG/issues"
+  },
+  "homepage": "https://github.com/Kipmevrouw/F2M5-PROG#readme"
+}
