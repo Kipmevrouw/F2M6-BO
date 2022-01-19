@@ -2,10 +2,48 @@
 @import "navigation";
 @import "header";
 
+#social{
+    .contacttitle{
+            font-family: sans-serif;
+            font-size: 80px;
+            margin: 0px;
+            padding: 0px;
+    }
+    div{
+        font-family: sans-serif;
+    }
+    img{
+        margin-left: 10px;
+        width: 50px;
+        height: auto;
+    }
+    
+}
 
+@media screen and (min-width: 900px){
     body{
         
     }
     .home{
         
     }
+    #social{
+        div{
+            font-family: sans-serif;
+        }
+        img{
+            margin-left: 120px;
+            width: 50px;
+            height: auto;
+        }
+        .contacttitle{
+            font-family: sans-serif;
+            font-size: 80px;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+    }
+}
+
+    
