@@ -1,38 +1,3 @@
-#main-menu {
-  display: block;
-  background-color: lightblue;
-  list-style: none;
-  display: flex;
-}
-#main-menu li {
-  padding: 15px;
-}
-#main-menu li a, #main-menu li a:hover {
-  color: #000000;
-  text-decoration: none;
-}
 
-header {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-header #site-info {
-  align-items: center;
-}
-header #site-info img {
-  width: 1000px;
-  height: auto;
-}
-header #site-info div {
-  padding: 5px;
-}
-header #site-info h1 {
-  text-align: center;
-}
-header #site-info h2 {
-  font-size: 15px;
-  text-align: center;
-}
 
 /*# sourceMappingURL=style.css.map */
