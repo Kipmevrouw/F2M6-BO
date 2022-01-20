@@ -1,5 +1,4 @@
 @import "variables";
-@import "navigation";
 @import "header";
 
 #social{
@@ -26,6 +25,9 @@
     }
     .home{
         
+    }
+    h2{
+        display: none;
     }
     #social{
         div{
