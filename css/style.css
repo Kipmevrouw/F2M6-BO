@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .bg-primary-0 {
   background-color: #000000;
   color: #000000;
@@ -64,6 +65,11 @@
 
 .color-secondary-300 {
   color: #e6e6e6;
+=======
+#main-menu {
+  background-color: #E30613;
+  padding: 2px;
+>>>>>>> 3b1e5d8629b5c447a017f0810937097b8e264986
 }
 
 #social .contacttitle {
