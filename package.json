@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "sass --style expanded scss/style.scss css/style.css",
+    "dev": "sass --style expanded scss/main-theme.scss css/main-theme.css",
     "watch": "sass --watch scss:css --style expanded",
-    "prod": "sass --style compressed --embed-source-map scss/style.scss css/style.css"
+    "prod": "sass --style compressed --embed-source-map scss/main-theme.scss css/main-theme.css"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/Kipmevrouw/F2M5-PROG/issues"
   },
-  "homepage": "https://github.com/Kipmevrouw/F2M5-PROG#readme"
+  "homepage": "https://github.com/Kipmevrouw/F2M5-PROG#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.15"
+  }
 }

@@ -55,7 +55,7 @@ class Preloader_Customizer {
             'choices' => array('Yes' => 'Yes', 'No' => 'No')
         )));
         $wp_customize->add_setting('basic-preloader-callout-text', array(
-            'default' => 'photography,',
+            'default' => 'all,',
             'sanitize_callback' => array( $this, 'sanitize_custom_text' )
         ));
         $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'basic-preloader-callout-control', array(
@@ -66,7 +66,7 @@ class Preloader_Customizer {
         )));
 
         $wp_customize->add_setting('basic-preloader-callout-text-2', array(
-            'default' => 'learn',
+            'default' => 'about',
             'sanitize_callback' => array( $this, 'sanitize_custom_text' )
         ));
 
@@ -78,7 +78,7 @@ class Preloader_Customizer {
         )));
 
         $wp_customize->add_setting('basic-preloader-callout-text-3', array(
-            'default' => 'all',
+            'default' => 'memories',
             'sanitize_callback' => array( $this, 'sanitize_custom_text' )
         ));
 

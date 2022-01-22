@@ -1,7 +1,9 @@
+<section id="witcontact">
 <?php
 get_header();
 ?>
-<div id="social">
+<section id="social">
+<h1>Foam is bereikbaar <br> voor vragen via:</h1>
 <?php
 
 if ( have_posts() ) :
@@ -19,7 +21,15 @@ else :
 endif;
 
 ?>
-</div>
+	
+</section>
+<section id="social2">
+	<div id="foto2c">
+		<img src="<?php echo get_template_directory_uri()?>/img/contactfoto.png"/>
+	</div>
+
+</section>
 <?php
 get_footer();
 ?>
+</section>
