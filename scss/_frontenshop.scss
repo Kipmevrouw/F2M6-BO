@@ -17,17 +17,19 @@ display: none;
 
 #shop-plaatje{
 img{
-    height: 900px;
-    width: auto;
+    height: 80%;
+    width: 80%;
     margin-inline-start: auto;
 }
 h3{
     color: white;
     writing-mode: vertical-lr;
-    position: absolute;
-    font-size: 120px;
+    position: fixed;
+    font-size: 110px;
 }
 }
 #shop-css{
 background-color: white;
+position: absolute;
+width: 100%;
 }
