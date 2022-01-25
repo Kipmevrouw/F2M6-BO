@@ -66,6 +66,48 @@
   color: #e6e6e6;
 }
 
+footer {
+  background-color: white;
+  padding: 100px;
+}
+
+#dnk {
+  font-family: sans-serif;
+}
+
+#plaatjes img {
+  height: 40px;
+  width: auto;
+  margin-left: 50px;
+}
+
+#nws {
+  font-family: sans-serif;
+}
+#nws img {
+  height: 40px;
+  width: auto;
+  margin-left: 50px;
+}
+
+#bzk {
+  font-family: sans-serif;
+}
+#bzk img {
+  height: 40px;
+  width: auto;
+  margin-left: 50px;
+}
+
+#nl {
+  font-family: sans-serif;
+}
+#nl img {
+  height: 40px;
+  width: auto;
+  margin-left: 50px;
+}
+
 #witcontact {
   background-color: white;
 }
