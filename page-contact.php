@@ -1,7 +1,8 @@
-<section id="witcontact">
+<section id="wit">
 <?php
 get_header();
 ?>
+<section id="witcontact">
 <section id="social">
 <h1>Foam is bereikbaar <br> voor vragen via:</h1>
 <?php
@@ -24,12 +25,13 @@ endif;
 	
 </section>
 <section id="social2">
-	<div id="foto2c">
 		<img src="<?php echo get_template_directory_uri()?>/img/contactfoto.png"/>
-	</div>
 
+</section>
 </section>
 <?php
 get_footer();
 ?>
 </section>
+
+

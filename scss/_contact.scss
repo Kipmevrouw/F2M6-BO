@@ -3,26 +3,54 @@
 }
 #social{
     h1{
+        padding: 50px;
+        font-size: 50px;
+        font-weight: bold;
         font-family: sans-serif;
-        font-size: 80px;
-        margin: 0px;
-        padding: 100px;
+        
     }
     img{
         margin-left: 120px;
         height: 40px;
         width: auto;
     }
-    
 }
 #social2{
-    #foto2c{
-        img{
-            position: right center;
-            height: 900px;
-            width: auto;
-            
-        }    
-    }
-
+    display: none;
 }
+@media screen and (min-width:1000px){
+    #wit{
+        background-color: white;
+    }
+    #witcontact{
+        display: flex;
+        background-color: white;
+    }
+    #social{
+        width: 60%;
+        h1{
+            font-family: sans-serif;
+            font-size: 80px;
+            margin: 0px;
+            padding: 100px;
+        }
+        img{
+            margin-left: 120px;
+            height: 40px;
+            width: auto;
+        }
+        
+    }
+    #social2{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+            img{
+                max-width: 100%;
+                height: auto;
+                
+            }    
+    }
+}
+

@@ -8,8 +8,12 @@ get_header();
 <section id="shop-css">
     <?php woocommerce_content();?>
 </section>
-
-
+<section id="bezoek-plan">
+<h1>Bezoek Foam <br> vandaag</h1>
+<h3>Open vandaag: 10:00 - 17:00 <br>
+Keizersgracht 609, 1017DS Amsterdam <br>
++31 020 5516 500</h3>
+</section>
 <?php
 get_footer();
 ?>
