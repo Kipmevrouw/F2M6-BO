@@ -29,9 +29,9 @@ endif;
 
 </section>
 </section>
+</section>
 <?php
 get_footer();
 ?>
-</section>
 
 

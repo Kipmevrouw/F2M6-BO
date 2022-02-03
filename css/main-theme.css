@@ -268,6 +268,10 @@ footer {
   width: auto;
 }
 
+h2 {
+  display: none;
+}
+
 #social2 {
   display: none;
 }
@@ -280,6 +284,10 @@ footer {
   #witcontact {
     display: flex;
     background-color: white;
+  }
+
+  h2 {
+    display: none;
   }
 
   #social {
@@ -308,10 +316,6 @@ footer {
     height: auto;
   }
 }
-h2 {
-  display: none;
-}
-
 #main-menu img {
   margin-left: auto;
   margin-right: auto;
@@ -323,13 +327,16 @@ h2 {
 
 #shop-plaatje {
   background-color: black;
+  display: flex;
 }
 #shop-plaatje img {
-  height: 80%;
+  justify-content: center;
+  align-items: center;
   width: 80%;
   margin-inline-start: auto;
 }
 #shop-plaatje h3 {
+  width: 20%;
   color: white;
   writing-mode: vertical-lr;
   position: fixed;
@@ -342,6 +349,7 @@ h2 {
   height: auto;
   position: relative;
   padding: 40px;
+  justify-content: space-between;
 }
 #shop-css h1 {
   display: none;
@@ -349,13 +357,27 @@ h2 {
 #shop-css p {
   display: none;
 }
+#shop-css ul.products {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+}
 #shop-css ul.products li.product a img {
-  height: 400px;
+  max-width: none;
+  max-height: none;
+  height: 700px;
   width: auto;
 }
-#shop-css ul.products li.product, #shop-css .woocommerce-page ul.products li.product {
-  float: none;
-  width: 100%;
+#shop-css ul.products li.product .button {
+  font-size: 30px;
+}
+#shop-css ul.products li.product .price {
+  font-size: 40px;
+}
+#shop-css ul.products li.product .woocommerce-loop-product__title {
+  font-size: 50px;
+  float: left;
+  display: contents;
 }
 
 #bezoek-plan {
@@ -373,8 +395,85 @@ h2 {
   font-size: 35px;
 }
 
+@media screen and (min-width: 1000px) {
+  #main-menu img {
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: auto;
+  }
+
+  #shop-plaatje {
+    background-color: black;
+    display: flex;
+  }
+  #shop-plaatje img {
+    height: 80%;
+    width: 80%;
+    margin-inline-start: auto;
+  }
+  #shop-plaatje h3 {
+    color: white;
+    writing-mode: vertical-lr;
+    position: fixed;
+    font-size: 110px;
+  }
+
+  #shop-css {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 40px;
+    justify-content: space-between;
+  }
+  #shop-css h1 {
+    display: none;
+  }
+  #shop-css p {
+    display: none;
+  }
+  #shop-css ul.products {
+    display: flex;
+  }
+  #shop-css ul.products li.product a img {
+    height: 400px;
+    width: auto;
+  }
+  #shop-css ul.products li.product, #shop-css .woocommerce-page ul.products li.product {
+    float: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  #shop-css ul.products li.product .button {
+    font-size: 25px;
+  }
+  #shop-css ul.products li.product .price {
+    font-size: 30px;
+  }
+  #shop-css ul.products li.product .woocommerce-loop-product__title {
+    font-size: 30px;
+    float: left;
+  }
+
+  #bezoek-plan {
+    padding: 50px;
+    position: relative;
+    background-color: #ffd000;
+  }
+  #bezoek-plan h1 {
+    font-size: 100px;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  #bezoek-plan h3 {
+    font-family: sans-serif;
+    font-size: 35px;
+  }
+}
 body {
-  background-color: black;
+  background-color: white;
 }
 body #body-black {
   background-color: black;
@@ -382,6 +481,9 @@ body #body-black {
 body #wit {
   background-color: white;
   margin-bottom: auto;
+}
+body #black {
+  background-color: black;
 }
 
 .flex {

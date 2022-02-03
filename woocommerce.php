@@ -1,3 +1,4 @@
+<section id="black">
 <?php
 get_header();
 ?>
@@ -13,6 +14,7 @@ get_header();
 <h3>Open vandaag: 10:00 - 17:00 <br>
 Keizersgracht 609, 1017DS Amsterdam <br>
 +31 020 5516 500</h3>
+</section>
 </section>
 <?php
 get_footer();
